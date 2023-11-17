@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+body{
+    /* background: grey; */
+}
+
+/* container styling */
+.container{
+    overflow: hidden;
+    height: 100vh;
+    margin: 0 9em;
+}
+
+
+/* upper styling */
+#upper{
+    display: inline;
+}
+#info{
+    position: relative;
+    top: 4em;
+
+}
+.heading{
+    width: 30%;
+}
+.heading h1{
+    
+   font-weight: 700;
+   font-size: 45px;
+    color: hsl(300, 43%, 22%);
+}
+
+.content{
+    width: 35%;
+    margin: 2em 0;
+}
+.content p{
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+}
+
+/* ratings styling */
+.ratings{
+    position: relative;
+    left: 32em;
+    bottom: 10em;
+
+}
+#rating1{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.4em;
+    position: relative;
+    left: 7em;
+    margin: 1em 0;
+    width: 34%;
+}
+#rating1 img{
+    position: relative;
+    top: 0.5em;
+    left:0.5em;
+}
+
+
+.review{
+    position: relative;
+    left: 10em;
+    
+    bottom: 0.8em;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+#rating2{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.4em;
+    position: relative;
+    left: 9em;
+    width: 35%;
+    margin: 1em 0;
+}
+#rating2 img{
+    position: relative;
+    top: 0.5em;
+    left:0.5em;
+}
+.report{
+    position: relative;
+    left: 10em;
+    bottom: 0.8em;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+#rating3{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.4em;
+    position: relative;
+    left: 11em;
+    width: 35%;
+}
+#rating3 img{
+    position: relative;
+    top: 0.5em;
+    left:0.5em;
+}
+.best{
+    position: relative;
+    left: 10em;
+    bottom: 0.8em;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+/* lower styling */
+.lower{
+    position: relative;
+    bottom: 9em;
+}
+.buyer{
+    color: hsl(333, 80%, 67%);
+}
+
+#colton{
+    position: relative;
+    width: 23.6%;
+    
+    top: 6em;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    padding: 1em 1.7em;
+}
+#coltonDetails{
+    position: relative;
+    left: 4em;
+    bottom: 2.6em;
+    font-size: 15px;
+}
+#coltonImg{
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
+}
+#coltonReview p{
+    font-size: 15px;
+    position: relative;
+    bottom: 1.2em;
+}
+/* Irene */
+#irene{
+    position: relative;
+    width: 23%;
+    left: 22.5em;
+    bottom: 6em;
+    padding: 1em 2em;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+
+}
+#ireneDetails{
+    position: relative;
+    left: 4em;
+    bottom: 2.6em;
+    
+}
+#ireneDetails p{
+    font-size: 15px;
+}
+#ireneImg{
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
+
+}
+#ireneReview p{
+    font-size: 15px;
+    position: relative;
+    bottom: 1.2em;
+}
+
+/* Anne */
+#anne{
+    position: relative;
+    width: 23%;
+    left: 45em;
+    bottom: 18em;
+    padding: 1em 2em;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+}
+
+#anneDetails{
+    position: relative;
+    left: 4em;
+    bottom: 2.8em;
+    
+}
+#anneDetails p{
+    font-size: 15px;
+}
+#anneImg{
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
+}
+#anneReview p{
+    font-size: 15px;
+    position: relative;
+    bottom: 1.2em;
+}
